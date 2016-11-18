@@ -1,0 +1,3 @@
+send_box_company_send_box_homepage:
+    path:     /
+    defaults: { _controller: SendBoxCompanySendBoxBundle:Default:index }
