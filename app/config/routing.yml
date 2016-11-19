@@ -1,3 +1,7 @@
+send_box_company_send_box:
+    resource: "@SendBoxCompanySendBoxBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation

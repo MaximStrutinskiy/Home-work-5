@@ -1,0 +1,4 @@
+services:
+#    send_box_company_send_box.example:
+#        class: SendBoxCompany\SendBoxBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

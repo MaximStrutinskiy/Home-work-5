@@ -1,0 +1,7 @@
+send_box_company_send_box_post:
+    resource: "@SendBoxCompanySendBoxBundle/Resources/config/routing/post.yml"
+    prefix:   /post
+
+send_box_company_send_box_homepage:
+    path:     /
+    defaults: { _controller: SendBoxCompanySendBoxBundle:Default:index }
